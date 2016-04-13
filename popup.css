@@ -1,0 +1,135 @@
+/**
+ * Copyright (c) 2011 The Chromium Authors. All rights reserved.
+ * Use of this source code is governed by a BSD-style license that can be
+ * found in the LICENSE file.
+ */
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  margin: 0px;
+  padding: 0px;
+  width: 400px;
+
+  background-color:#f0f0f0;
+}
+
+#selector {
+  display: block;
+  height:50px;
+}
+
+#lang_dropdown {
+  display: inline-block;
+  position: relative;
+  height: 40px;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-color: #636363;
+  float: left;
+  clear: left;
+}
+
+.buttons {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  margin-top: 20px;
+  margin-right: 20px;
+  height: 40px;
+  width: 35px;
+  float: right;
+  clear: right;
+  overflow: hidden;
+}
+
+#back_button, #search {
+  display: none;
+}
+
+#word, #search {
+  height: 35px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: medium;
+}
+
+#translate {
+  vertical-align: center;
+  padding:10px;
+  padding-left: 10px;
+  margin-left: 160px;
+  position:relative;
+}
+
+#searchword {
+  display: inline-block;
+  float: left;
+  clear: left;
+  height: 30px;
+  font-size: 18px;
+  /*margin-top: 20px;*/
+  margin-left: 20px;
+  /*border-color: #636363;*/
+}
+
+#submit {
+  display: inline-block;
+  float: right;
+  clear: right;
+  height: 30px;
+  font-size: 18px;
+  /*margin-top: 20px;*/
+  margin-right: 20px;
+  border-color: #636363;
+}
+
+
+#selectedword{
+  font-size: 24px;
+  text-align: left;
+  text-indent: 20px;
+}
+
+#searchword {
+  padding:10px;
+  position:relative;
+  margin-left:20px;
+  height: 15px;
+  margin-top: 9px;
+    bottom: 10px;
+  border: #f0f0f0;
+}
+
+
+
+#translation {
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  font-family: verdana;
+  font-size:14pt;
+  height: 60px;
+  text-align: center;
+  padding:10px;
+  color: blue;
+  white-space: pre;
+
+}
+
+
+#info {
+  display: block;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  background-color:#deebf7;
+  color:#3182bd;
+  font-family:arial;
+  font-size:11pt;
+}
+

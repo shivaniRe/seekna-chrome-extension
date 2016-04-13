@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Popup</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link href="popup.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="container">
+
+
+      <div id="selector">
+        <select id="lang_dropdown">
+          <option selected>Select Language</option>
+          <option value="en2sp">English - Spanish</option>
+          <option value="sp2en">Spanish - English</option>
+        </select>
+
+        <div class="buttons">
+          <a id="enter_button"><img src="./images/pencil-icon-512.png" height="35"></a> 
+          <a id="back_button"><img src="./images/back.png" height="35"></a> 
+        </div>
+      </div>
+
+      <!-- Search section  -->
+      <div id="word">
+        <p id="selectedword"></p>
+      </div>
+
+      <div id="search">
+        <input type=text placeholder="Enter Word" id="searchword">
+        <button id="submit" style="">Translate
+        </button>
+      </div>
+
+      <!-- Translated Text section  -->
+      <div id="translation">
+        Please select a word.
+      </div>
+
+      <!-- footer section  -->
+      <div id="info">Powered by SEEKna</div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

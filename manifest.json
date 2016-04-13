@@ -1,0 +1,24 @@
+{
+  "name": "SEEKna",
+  "version": "0.1.1",
+  "description": "Given selected English words pop up a translation.",
+  "icons": { "256": "./images/marker.png" },
+  "background": { "scripts": ["background.js"] },
+  "content_scripts": [
+    { "matches": ["http://*/*", "https://*/*"],
+      "js": ["translator_content_script.js"]
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "https://maps.google.com/*",
+    "https://maps.googleapis.com/*"
+  ],
+  "browser_action": {
+      "default_name": "SEEKna",
+      "default_icon": "./images/marker.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com/; object-src 'self'"
+}
